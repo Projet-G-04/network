@@ -28,8 +28,3 @@ L'architecture réseau à trois niveaux est une approche efficace pour concevoir
 
 
 
-
-| Colonne 1 | Colonne 2 |
-|-----------|-----------|
-| Ligne 1   | Ligne 1   |
-| Ligne 2   | Ligne 2   |
