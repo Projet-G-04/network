@@ -25,3 +25,11 @@ Pour mettre en place cette architecture dans GNS3, nous avons utilisé les élé
 L'architecture réseau à trois niveaux est une approche efficace pour concevoir des réseaux d'entreprise évolutifs et fiables. Grâce à GNS3, nous avons pu simuler et tester cette architecture avant de la déployer dans un environnement de production.
 
 ![voila larchiteture ](git.png)
+
+
+
+
+| Colonne 1 | Colonne 2 |
+|-----------|-----------|
+| Ligne 1   | Ligne 1   |
+| Ligne 2   | Ligne 2   |
