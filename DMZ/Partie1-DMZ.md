@@ -6,9 +6,6 @@ Elle héberge généralement des serveurs accessibles au public, tels que des se
 Dans notre conception, la DMZ contient un pare-feu Cisco ASA , un commutateur de couche 3  et un serveur DMZ.
 
 ## Configuration du Serveur 
-### _Configuration NTP pour la synchronisation de l'heure_
-### _Configuration DNS en tant que client utilisant le serveur DNS interne_ 
-### _Configuration de journalisation pour enregistrer les messages d'information sur la console, la mémoire RAM et les sessions VTY_
 
 ## Configuration du firewall 
 
