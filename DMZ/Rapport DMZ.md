@@ -68,7 +68,7 @@ Serveur Web : Ce serveur semble également héberger un service Web public acces
 
 ## Le Serveur de la DMZ 
 
-### choix du serveur 
+### Choix du serveur 
 Windows Server est largement utilisé et compatible avec un large éventail de logiciels. ce pour il est  une cible privilégiée pour les pirates informatiques en raison de sa popularité.
 On a donc choisit l'utilisateur d'Ubuntu car celui ci est plus sécurisé pour une DMZ en raison de:
 Sa base de code plus petite et moins complexe, ce qui réduit la surface d'attaque.
