@@ -127,3 +127,6 @@ Sécurité et flexibilité : Les switchs de niveau 3 offrent une puissance et un
 S’échapper de la DMZ : Si l’attaquant peut compromettre le commutateur, il peut utiliser ce point d’accès pour accéder au réseau interne, contournant ainsi la sécurité mise en place.
 
 # Conclusions 
+En conclusion la zone démilitarisée (DMZ), située entre le réseau interne sécurisé et l’internet non fiable, joue un rôle essentiel dans la protection des ressources internes tout en permettant l’accès à des services publics. Elle filtre le trafic, contrôle l’accès, sécurise les applications et assure la surveillance
+
+
