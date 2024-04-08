@@ -18,20 +18,26 @@ Logistique et surveillance: La DZM peut être utilisée pour collecter des journ
 Il existe plusieurs types de DZM, dont les plus courants sont :
 
 DZM à base de pare-feu: Ce type de DZM utilise un pare-feu pour filtrer le trafic entre les réseaux interne et externe.
+
 DZM à base de routeur: Ce type de DZM utilise un routeur pour séparer les réseaux interne et externe.
+
 DZM virtuelle: Ce type de DZM utilise des technologies de virtualisation pour créer une zone réseau distincte sur un même serveur physique.
 
 ### Avantages d'une DZM :
 
 Amélioration de la sécurité: La DZM permet de réduire les risques d'attaque et d'intrusion sur le réseau interne.
+
 Meilleure gestion des accès: La DZM permet de contrôler plus précisément qui a accès aux ressources du réseau interne.
+
 Flexibilité accrue: La DZM peut être adaptée aux besoins spécifiques de chaque organisation.
 
 
 ### Inconvénients d'une DZM :
 
 Coût: La mise en place et la maintenance d'une DZM peuvent être coûteuses.
+
 Complexité: La configuration et la gestion d'une DZM peuvent être complexes.
+
 Performances: La DZM peut avoir un impact sur les performances du réseau.
 
   
@@ -40,7 +46,9 @@ Dans notre conception on a les equipements suivants :
 
 ### ASAv-DMZ-I : 
 Ce pare-feu ASA contrôle le trafic entrant et sortant vers et depuis la DMZ. Il dispose de deux interfaces :
+
 Gi0/0 : Cette interface est connectée à un routeur ou un commutateur menant à Internet.
+
 Gi0/2 : Cette interface se connecte au commutateur multi-couche (vIOS-DMZ-I) au sein de la DMZ.
 
 ### vIOS-DMZ-I : 
