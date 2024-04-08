@@ -58,7 +58,7 @@ NTP (Network Time Protocol) : Synchronise l'heure sur les appareils de la DMZ.
 Syslog : Fournit un service de journalisation des événements provenant des appareils de la DMZ.
 Serveur Web : Ce serveur semble également héberger un service Web public accessible depuis Internet.
 
-## Configuration du Serveur 
+## Le Serveur de la DMZ 
 
 ### choix du serveur 
 Windows Server est largement utilisé et compatible avec un large éventail de logiciels. ce pour il est  une cible privilégiée pour les pirates informatiques en raison de sa popularité.
@@ -67,7 +67,37 @@ Sa base de code plus petite et moins complexe, ce qui réduit la surface d'attaq
 Sa communauté active qui développe et publie rapidement des correctifs de sécurité.
 Son architecture open source qui permet une inspection et une modification transparentes du code.
 
-## Configuration du firewall 
+## Le firewall de la DMZ 
+
+Le pare-feu Cisco ASAv 9.8.1 est une solution de sécurité réseau virtuelle de nouvelle génération,  puissante et flexible qui offre de nombreux avantages pour la protection de notre DMZ. 
+
+
+### Avantages :
+
+Sécurité avancée : Offre une protection complète contre les menaces réseau et les attaques sophistiquées grâce à des fonctionnalités telles que le filtrage de paquets, l'inspection approfondie des paquets (DPI), le contrôle des applications et la prévention des intrusions (IPS).
+Flexibilité et évolutivité : Disponible en plusieurs versions pour répondre aux besoins de différents types de réseaux, des petites entreprises aux grandes organisations. Il peut également être déployé sur site ou dans le cloud.
+
+Gestion simplifiée : Offre une interface graphique intuitive (ASDM) pour une configuration et une gestion faciles, ainsi qu'une prise en charge de la ligne de commande (CLI) pour un contrôle plus granulaire.
+
+Performances élevées : Offre un débit et une latence optimisés pour garantir un impact minimal sur les performances du réseau.
+
+Fonctionnalités VPN : Prend en charge les connexions VPN IPsec et SSL pour un accès sécurisé à distance à la DMZ.
+
+Intégration avec d'autres solutions Cisco : Fonctionne de manière transparente avec d'autres produits de sécurité Cisco pour une protection complète du réseau.
+
+
+### Forces :
+
+Meilleure protection contre les menaces: L'ASAv 9.8.1 offre une protection avancée contre les dernières menaces, y compris les ransomwares, les malwares et les attaques zero-day.
+Visibilité et contrôle accrus: Le pare-feu offre une visibilité complète sur le trafic réseau et permet un contrôle granulaire sur les accès aux ressources de la DMZ.
+Facilité de gestion: L'ASDM facilite la configuration et la gestion du pare-feu, même pour les utilisateurs non techniques.
+Coût total de possession (TCO) réduit: L'ASAv 9.8.1 est une solution de sécurité rentable qui offre un excellent rapport qualité-prix.
+
+Stateful inspection: Permet d'autoriser ou de refuser le trafic en fonction de l'état de la connexion, ce qui améliore la sécurité et les performances.
+
+High availability: Prend en charge la mise en cluster actif/passif pour garantir une disponibilité continue du pare-feu.
+Reporting and logging: Fournit des rapports et des journaux détaillés pour une analyse et une détection des menaces plus efficaces.
+
 
 
 ## Configuration du switch 
