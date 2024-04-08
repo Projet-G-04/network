@@ -1,4 +1,4 @@
-# Connectivité Internet: 
+# Connectivité Internet 
 
 L'entreprise se connecte à Internet via deux FAI (fournisseurs d'accès Internet) via le routeur de bordure d'entreprise.
 la conception illustre la redondance, car la perte d'un FAI n'interrompra pas nécessairement l'accès à Internet.
