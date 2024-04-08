@@ -130,3 +130,4 @@ S’échapper de la DMZ : Si l’attaquant peut compromettre le commutateur, il 
 En conclusion la zone démilitarisée (DMZ), située entre le réseau interne sécurisé et l’internet non fiable, joue un rôle essentiel dans la protection des ressources internes tout en permettant l’accès à des services publics. Elle filtre le trafic, contrôle l’accès, sécurise les applications et assure la surveillance
 
 
+![image](https://github.com/Projet-G-04/network/assets/88287290/dcb7f379-a689-48b1-9d39-6fb53948abba)
