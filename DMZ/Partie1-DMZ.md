@@ -6,8 +6,11 @@ Elle héberge généralement des serveurs accessibles au public, tels que des se
 ### Fonctions principales d'une DZM :
 
 Filtrage du trafic: La DZM permet de filtrer le trafic entrant et sortant du réseau interne, en ne laissant passer que les communications autorisées. Cela permet de protéger le réseau interne contre les attaques et les intrusions.
+
 Contrôle d'accès: La DZM peut être configurée pour autoriser ou refuser l'accès à des services spécifiques en fonction de l'adresse IP ou d'autres critères. Cela permet de limiter l'accès aux ressources sensibles du réseau interne.
+
 Sécurité des applications: La DZM peut être utilisée pour héberger des applications qui ne sont pas nécessairement sûres, mais qui doivent être accessibles depuis le réseau interne. Cela permet de limiter les risques pour le réseau interne en cas de compromission de l'application.
+
 Logistique et surveillance: La DZM peut être utilisée pour collecter des journaux et des informations de sécurité sur les communications qui transitent par la zone. Cela permet de surveiller l'activité et de détecter les menaces potentielles.
 
 
