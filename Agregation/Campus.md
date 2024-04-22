@@ -17,8 +17,7 @@ Ce rapport fournit une description détaillée de la partie d'agrégation d'un p
 ### Topologie du réseau
 
 Le réseau est organisé en une topologie hiérarchique à trois niveaux, avec les routeurs VIOS-Core-1 et VIOS-Core-2 au niveau supérieur (noyau) et le routeur OpenSwitch-Acc-1 au niveau inférieur (accès). Les périphériques finaux, tels que les ordinateurs portables et les serveurs, sont connectés au routeur OpenSwitch-Acc-1.
-## Définition des routeurs dans le projet réseau (Markdown)
-
+## Définition des routeurs dans le projet réseau
 ### VIOS-Core-1 et VIOS-Core-2
 
 Les routeurs VIOS-Core-1 et VIOS-Core-2 sont des routeurs de **noyau** (également appelés routeurs de distribution). Ils occupent une position centrale dans le réseau et assurent les fonctions suivantes :
@@ -43,7 +42,7 @@ Le routeur OpenSwitch-Acc-1 est un routeur d'**accès** (également appelé rout
 
 Ce routeur est généralement un équipement économique et fiable, adapté aux réseaux de petite et moyenne taille.
 
-### Tableau récapitulatif des caractéristiques des routeurs (Markdown)
+### Tableau récapitulatif des caractéristiques des routeurs 
 
 | Caractéristique | VIOS-Core-1/VIOS-Core-2 | OpenSwitch-Acc-1 |
 |---|---|---|
